@@ -1,0 +1,15 @@
+.partner {
+  margin-top: 101px;
+}
+
+.partner-container {
+  max-width: 1368px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.partner-title {
+  text-align: center;
+  font-size: 28px;
+  line-height: calc(44 / 28);
+}

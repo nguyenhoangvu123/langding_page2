@@ -1,0 +1,39 @@
+.wrapper {
+    max-width: $wrapper;
+    margin-left: 0;
+    margin-right: 0;
+}
+.container {
+    max-width: 1725px;
+    padding: 0 15px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 15px;
+}
+
+body {
+    font-family: $font-primary;
+    font-size: 22px;
+    color: $gray-dark;
+    font-weight : 400;
+    line-height: 1;
+}
+
+.btn {
+    font-family:  $font-primary;
+    padding: 13px 50px;
+    font-weight:  500;
+    font-size: 22px;
+    color : $gray-light;
+    line-height:  calc( 33 / 22);
+    border-radius: 100rem;
+    border : 0;
+    outline: none;
+    &--white {
+        background-color: white;
+    }
+    &--primary {
+        background-color: $color-secondary;
+        color : white;
+    }
+}

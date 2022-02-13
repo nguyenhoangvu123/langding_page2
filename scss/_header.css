@@ -1,0 +1,35 @@
+.header {
+  min-height: 1118px;
+}
+
+.header-container {
+  max-width: 1725px;
+  padding: 0 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.header-auth {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  gap: 0 34px;
+}
+
+.menu {
+  margin-left: auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0 80px;
+}
+
+.menu .link {
+  color: inherit;
+}
