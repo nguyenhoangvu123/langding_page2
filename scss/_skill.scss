@@ -1,0 +1,55 @@
+.skill {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-bottom: 160px;
+  &-header {
+    max-width: 1101px;
+    margin: 0 auto;
+  }
+  &-heading {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: calc(79 / 44);
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  &-desc {
+    font-size: 24px;
+    color: $gray;
+    text-align: center;
+    line-height: calc(43 / 24);
+    padding-bottom: 80px;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 100px;
+  }
+  &-item {
+    width: 600px;
+    height: 400px;
+    background: rgba(23, 27, 65, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  &-title {
+    padding-bottom: 17px;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: calc(48 / 32);
+    text-transform: uppercase;
+  }
+  &-item:first-child {
+    background-image: url(../images/group22.png);
+  }
+  &-item:last-child {
+    background-image: url(../images/group23.png);
+  }
+}
